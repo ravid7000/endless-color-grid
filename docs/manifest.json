@@ -6,8 +6,8 @@
     "background_color": "#4560ff",
     "display": "minimal-ui",
     "orientation": "portrait",
-    "scope": ".",
-    "start_url": "/endless-color-grid",
+    "scope": "/endless-color-grid/",
+    "start_url": "/endless-color-grid/",
     "icons": [
         {
             "src": "./images/icons/icon-72x72.png",
