@@ -18,6 +18,9 @@ p {
 }
 
 .reload-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   top: 30px;
   right: 15px;
