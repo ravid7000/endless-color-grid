@@ -1,17 +1,16 @@
 var CACHE_NAME = 'endless-cache-v1';
 var urlsToCache = [
     '/',
-    '/endless-color-grid/',
     'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',
     'https://fonts.googleapis.com/icon?family=Material+Icons',
-    '/endless-color-grid/style.css',
+    './style.css',
     'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js',
     'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js',
-    '/endless-color-grid/script.js',
-    '/endless-color-grid/manifest.json',
-    '/endless-color-grid/icons/apple-icon.png',
-    '/endless-color-grid/icons/favicon-96x96.png'
+    './script.js',
+    './manifest.json',
+    './icons/apple-icon.png',
+    './icons/favicon-96x96.png'
 ];
 
 self.addEventListener('install', function (event) {
