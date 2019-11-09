@@ -56,6 +56,7 @@ p {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  user-select: none;
 }
 @media (max-width: 1199px) {
   .grid {
@@ -146,9 +147,14 @@ p {
   padding-left: 10px;
   flex: 0 0 100px;
 }
+.color-cart .cart-btn .btn {
+  height: 40px;
+  padding: .5rem;
+}
 .color-cart .color-container {
   display: flex;
   overflow-x: auto;
+  overflow-y: hidden;
   align-items: center;
   width: 100%;
 }
@@ -156,7 +162,7 @@ p {
   flex: 0 0 115px;
   position: relative;
   width: 115px;
-  height: 30px;
+  height: 40px;
   padding-left: 15px;
   width: 130px;
 }
@@ -174,7 +180,7 @@ p {
   position: absolute;
   display: block;
   right: 7px;
-  top: 5px;
+  top: 10px;
   font-size: 2rem;
   line-height: 21px;
   color: #fff;
