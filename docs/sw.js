@@ -1,6 +1,6 @@
 var CACHE_NAME = 'endless-cache-v1';
 var urlsToCache = [
-    '/',
+    './index.html',
     'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',
     'https://fonts.googleapis.com/icon?family=Material+Icons',
     './style.css',
