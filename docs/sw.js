@@ -1,12 +1,13 @@
 var CACHE_NAME = 'endless-cache-v1';
 var urlsToCache = [
     './index.html',
-    'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',
-    'https://fonts.googleapis.com/icon?family=Material+Icons',
+    './css/bootstrap.min.css',
+    './font/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2',
+    './font/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2',
     './style.css',
-    'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js',
-    'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js',
-    'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js',
+    './js/jquery.min.js',
+    './js/popper.min.js',
+    './js/bootstrap.min.js',
     './script.js',
     './manifest.json',
     './icons/apple-icon.png',
