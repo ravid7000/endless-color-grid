@@ -4,7 +4,7 @@
     "description": "Endless Color Generator",
     "theme_color": "#f281da",
     "background_color": "#4560ff",
-    "display": "minimal-ui",
+    "display": "standalone",
     "orientation": "portrait",
     "scope": "/endless-color-grid/",
     "start_url": "/endless-color-grid/",
