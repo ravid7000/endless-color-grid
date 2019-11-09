@@ -3,7 +3,14 @@ var cartContainer = $('.color-container')
 var colorCart = $('.color-cart')
 var colorLength = $('.all-colors')
 var downloadBtn = $('#downloadJson')
+var reloadApp = $('.reload-app');
 var cart = []
+
+$(document).ready(function() {
+    reloadApp.on('click', function() {
+        window.location.reload();
+    })
+})
 
 function ramdomInt(min, max) {
     min = Math.ceil(min);
